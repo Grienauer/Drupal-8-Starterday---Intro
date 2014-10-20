@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>#d8day - DruWTF?</title>
+
+		<meta name="description" content="What is Drupal? A short walkthrough/overview!">
+		<meta name="author" content="Nico Grienauer">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/drupalat.css" id="theme">
+        <link rel="stylesheet" href="css/fullscreen-img.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                <section>
+                    <img src="images/d8day.jpg">
+                    <h3>Willkommen! - #d8day</h3>
+                </section>
+				<section>
+					<h1>DRUPAL 8 STARTER DAY INTRO</h1>
+					<h3>#d8day</h3>
+					<p>
+						<small>by Nico Grienauer <a href="http://twitter.com/grienauer">@grienauer</a></small>
+					</p>
+  				</section>
+
+                <section>
+                    <section>
+                        <h2>Nico Grienauer</h2>
+                    </section>
+                    <section fullscreen-img="images/nico_grienauer.jpg">
+                    </section>
+                    <section>
+                        <h2>Nico Grienauer</h2>
+                        <div style="width: 50%; float: left"><p><small>Teilhaber</small></p><img src="images/ausgetrocknet.png" style="width: 70%" height="auto"></div>
+
+                        <div style="width: 50%; float: left"><p><small>Gründer</small></p><img src="images/acolono_long.png"></div>
+                            <div style="clear: both"><p><small>Obmann Stellvertreter</small></p><img src="images/drupal_austria.jpg" style="width: 30%; height: auto" ></div>
+                            <div><p><small>Ambassador</small></p><img src="images/codeweek_long.png" style="width: 30%; height: auto" ></div>
+                    </section>
+                </section>
+
+                <section>
+                    <img src="images/d8day.jpg">
+                </section>
+                <section>
+                    <h2>Gefördert von</h2>
+                    <img src="images/sponsors/wirtschaftsagentur.png">
+                </section>
+                <section>
+                    <section>
+                        <h2>Unterstützt von</h2>
+                        <img src="images/sponsors/acolono.png">
+                    </section>
+                    <section>
+                        <h2>Unterstützt von</h2>
+                        <img src="images/sponsors/acquia.png">
+                    </section>
+                    <section>
+                        <h2>Unterstützt von</h2>
+                        <img src="images/sponsors/drunomics.png">
+                    </section>
+                    <section>
+                        <h2>Unterstützt von</h2>
+                        <img src="images/sponsors/propeople.png">
+                    </section>
+                    <section>
+                        <h2>Unterstützt von</h2>
+                        <img src="images/sponsors/vi_knallgrau.png">
+                    </section>
+                    <section>
+                        <h2>Unterstützt von</h2>
+                        <img src="images/sponsors/webshapers.png">
+                    </section>
+                    <section>
+                        <h2>Unterstützt von</h2>
+                        <img src="images/sponsors/zensations.png">
+                    </section>
+                </section>
+                <section>
+                    <h2>Event im Rahme der Codeweek.eu</h2>
+                    <img src="images/codeweek.jpg">
+                    <p>11. - 17. Oktober 2014</p>
+                    <p>55 Events in Österreich!</p>
+                </section>
+				<section>
+                    <section>
+                        <h2>Organisiert von</h2>
+                        <img src="images/drupal_austria.jpg">
+                    </section>
+                    <section>
+                        <h2>Drupal Camp Vienna 2009</h2>
+                        <img src="images/drupalcamp_vienna_2009.jpg">
+                    </section>
+                    <section>
+                        <h2>Drupal Starter Day 2011</h2>
+                        <img src="images/drupal_starterday.jpg">
+                    </section>
+                    <section>
+                        <h2>Drupal Austria Roadshow 2012</h2>
+                        <p>Graz, Innsbruck, Klagenfurt, Linz, Wien + Linuxwochen</p>
+                        <img src="images/roadshow_2012.jpg">
+                    </section>
+                    <section>
+                        <h2>DrupalCamp Vienna 2013</h2>
+                        <p>300 Teilnehmer aus 25 Ländern</p>
+                        <img src="images/drupalcamp_vienna_2013.jpg">
+                    </section>
+                    <section>
+                        <h2>International?</h2>
+                            <p class="fragment">über 2.000 Events Weltweit pro Jahr!</p>
+                    </section>
+					<section>
+						<h2>Global Training Days 2014</h2>
+						<p>Dieses Jahr über 130 Trainings verteilt auf 3 Tage.</p>
+                        <img src="images/global-training-days.png">
+					</section>
+                    <section>
+                        <h2>3 DrupalCons pro Jahr</h2>
+                        <ul>
+                            <li>Februar 10-12, <strong>Bogotá</strong> - Colombia</li>
+                            <li>Mai 11-15,  <strong>Los Angeles</strong> - California, USA</li>
+                            <li>September 21-25,  <strong>Barcelona</strong> - Spain</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Drupalcon Amsterdam 2014</h2>
+                        <p>2.300 Besucher!</p>
+                        <img src="images/drupalcon_amsterdam_2014.jpg">
+                    </section>
+                    <section>
+                        <h2>44 Österreicher</h2>
+                        <img src="images/drupalcon_amsterdam_2014_drupal_at.jpg">
+                    </section>
+                    <section>
+                        <h2>Wo finde ich das nächste Event?</h2>
+                        <p>www.drupical.com</p>
+                        <img src="images/drupical.png" style="width: 60%; height: auto">
+                    </section>
+
+				</section>
+                <section>
+                    <section>
+                        <h2>Drupal WTF?</h2>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Modulares Open Source Framework</li>
+                            <li class="fragment">PHP, MySQL/PostgreSQL/... (LAMP)</li>
+                            <li class="fragment">über 2% aller Internetseiten benutzt Drupal (und ca 20% der Top 10.000 Webseiten!)</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Vergleich zu anderen CMS Systemen</h2>
+                        <ul>
+                            <li class="fragment">Extrem flexibel und vielseitig</li>
+                            <li class="fragment">Erweiterbar mit APIs, Themes und Modulen (über 15.000 kostenlose, werbefreie und voll funktionsfähige Module)</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Vergleich zu anderen Frameworks</h2>
+                        <ul>
+                            <li class="fragment">Verwendung von Sub-Systemen erspart viel Entwicklungszeit</li>
+                            <li class="fragment">Distributionen ermöglichen eine einfache Installation von vorkonfigurierten Systemen</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Vergleich zu anderen Communities</h2>
+                            <ul>
+                                <li class="fragment">Sehr aktive und große Community <br />Über 1,000,000 User</li>
+                                <li class="fragment">Riesiges Ecosystem von Service Anbietern und Spezialisten</li>
+                                <li class="fragment">PHP ist ein weit verbreitete Programmiersprache</li>
+                            </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Welche Seiten benutzen Drupal?</h2>
+                    </section>
+                    <section fullscreen-img="images/examples/deutschland.png">
+                    </section>
+                    <section fullscreen-img="images/examples/grammy.png">
+                    </section>
+                    <section fullscreen-img="images/examples/harvard.png">
+                    </section>
+                    <section fullscreen-img="images/examples/mcdonalds.png">
+                    </section>
+                    <section fullscreen-img="images/examples/menshealth.png">
+                    </section>
+                    <section fullscreen-img="images/examples/msf.png">
+                    </section>
+                    <section fullscreen-img="images/examples/nbc.png">
+                    </section>
+                    <section fullscreen-img="images/examples/tesla.png">
+                    </section>
+                    <section fullscreen-img="images/examples/twitter.png">
+                    </section>
+                    <section fullscreen-img="images/examples/viennale.png">
+                    </section>
+                    <section fullscreen-img="images/examples/whitehouse.png">
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <img src="images/drupal8_logo.png">
+                    </section>
+                    <section fullscreen-img="images/drupal8_contrubutions.png">
+                    </section>
+
+                    <section>
+                        <h2>Neuerungen in Drupal 8</h2>
+                            <ul>
+                                <li class="fragment"><strong>Mobile ist in der DNA</strong><p>Responsive Mobile First Ansatz - auch im Admin Bereich</p></li>
+                                <li class="fragment"><strong>Multilingual Fähigkeiten</strong><p>Alles ist Übersetzbar via User Interface und Aktualisierungen kommen Automatisch von der Community</p></li>
+                                <li class="fragment"><strong>Neues Konfigurationsmanagement</strong><p>Datei basierendes System, getrennt von der Datenbank</p></li>
+                                <li class="fragment"><strong>Mehr Barrierefreiheit</strong><p>Semantischen HTML 5, WAI-ARIA, TabManager, ...</p></li>
+                             </ul>
+                   </section>
+                    <section>
+                        <h2>Neuerungen in Drupal 8</h2>
+                        <ul>
+                            <li><strong>Bessere User Experience</strong><p>Autoverfollständigung und everständliche Dialoge</p></li>
+                            <li class="fragment"><strong>Eingebaute Web Services</strong><p>Benutze Drupal als Datenquelle für Mobile Apps - HTTP authentifizierung, JSON Export, ...</p></li>
+                            <li class="fragment"><strong>Einfaches Editieren und Schreiben von Inhalten</strong><p>Direcktes editieren von Inhalten auf der Seite, ohne in den Editierbereich wechseln zu müssen</p></li>
+                            <li class="fragment"><strong>Schnelles Theming bis ins kleinste Detail</strong><p>verwendung der flexiblen, schnellen und vor allem sicheren Template Engine Twig</p></li>
+                         </ul>
+                    </section>
+                    <section>
+                        <h2>Neuerungen in Drupal 8</h2>
+                        <ul>
+                            <li><strong>Views, Out of the Box</strong><p>Listen, Gallerien, Tabellen, Karten, Reports, ... können jetzt ohne Zusatzmodul erstellt werden</p></li>
+                            <li class="fragment"><strong>Felder, Felder und noch mehr Felder</strong><p>noch mehr Felder ohne Zusatzmodule vorhanden - Entity Referenzen, Liks, Datum, E-Mail, Telefonnummern,... </p></li>
+                            <li class="fragment"><strong>Schöneres Markup mit HTML 5</strong><p>erleichtert den Nativen Input für Mobilgeräte</strong></p></li>
+                            <li class="fragment"><strong>Industrie-Standardansatz</strong><p>Objekt-Orientierter Code und PHP Standards - Inkludierung von Composer, PHPUnit, Guzzle,...</p></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <p>Unbegrenzte Möglichkeiten</p>
+                        <p class="fragment">Kostenlos</p>
+                        <p class="fragment"> + eine Community, die dich unterstützt!</p>
+                    </section>
+                    <section data-background="rgb(203,16,31)" class="end">
+                        <img src="images/drupal_austria_white.png" width="40%" height="auto">
+                        <p>Drupal-Austria Mitgliedschaft</p>
+                        <p>25€ / Jahr</p>
+                    </section>
+
+                </section>
+                <section>
+                    <section class="timetable">
+                        <small>10:30 - 11:00</small> <h4>Intro <small>Nico Grienauer</small></h4>
+                        <small>11:00 - 11:45</small> <h4>Sitebuilding Part 1 <small>Philipp Melab</small></h4>
+                        <small>12:00 - 12:45</small> <h4>Sitebuilding Part 2 <small>Sebastian Siemssen</small></h4>
+                        <small>13:00 - 14:00</small> <h4>Pause <small>Mahlzeit!</small></h4>
+                        <small>14:00 - 14:45</small> <h4>Theming <small>Christian Ziegler</small></h4>
+                        <small>15:00 - 15:45</small> <h4>Coding <small>Wolfgang Ziegler</small></h4>
+                        <small>16:00 - 16:45</small> <h4> Entwicklungsumgebung <small>Philipp Melab/Sebastian Siemssen</small></h4>
+                        <small>17:00 - ?</small> <h4>Socializing</h4>
+                    </section>
+                </section>
+
+				<section data-background="rgb(203,16,31)" class="end">
+					<h3>Danke!</h3>
+					<h3>BY @Grienauer</h3>
+                    <h1>Lasst uns durchstarten!</h1>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'lib/js/fullscreen-img.js' },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
